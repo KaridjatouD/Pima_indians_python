@@ -51,8 +51,8 @@ K-Nearest Neighbors (KNN)
 * Courbe ROC : AUC = 0.79
 
 ### Visualisations:
-* [Matrices de confusion]('images/Matrice_de_confusion.png')
-* [Courbes ROC]('images/Courbe_ROC.png')
+* [Matrices de confusion](images/Matrice_de_confusion.png)
+* [Courbes ROC](images/Courbe_ROC.png)
 * [AUC (aire sous la courbe)](images/Courbe_ROC.png)
 * [Boxplots](images/Boxplots.png)
 * [Histogrammes](images/Histogrammes.png)
