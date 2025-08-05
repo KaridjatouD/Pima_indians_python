@@ -28,7 +28,7 @@ print('Analyse exploratoire des données')
 print(data.describe()) #stat de base
 print((data == 0).sum) #varifier valeur manquantes ou aberantes
 
-#Apercu de la variable d'interet
+#Apercu de la variable d'interet, distribution des classes
 print(data['Outcome'].value_counts())
 print(data['Outcome'].value_counts(normalize=True)*100)
 
@@ -214,4 +214,24 @@ plt.title('Matrice de confusion - KNN, k=8')
 plt.tight_layout()
 plt.show()
 
-#Apres avoir fait la regression logistique et les knn, on peut conclure aue 
+#Allons plus loin?
+
+#Prediction reelle sur un nouveau patient
+
+def predict_nv_patient(knn, std, patient_data):
+
+    patient_array = np.array(patient_data).reshape(1, -1)
+    patient_scaled = std.transform(patient_array)
+
+    prediction = knn.predict(patient_scaled)[0]
+    proba = knn.predict_proba(patient_scaled)[0][1]
+
+    print("Résultat de la prédiction :")
+    print(f" - Classe prédite : {'Diabétique' if prediction == 1 else 'Non diabétique'}")
+    print(f" - Probabilité d’être diabétique : {round(proba * 100, 2)}%")
+
+    return prediction, proba
+
+nv_patient=[[6,148,72,35,168,33.6,0.627,50]]
+predict_nv_patient(knn, std, nv_patient)
+
