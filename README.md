@@ -63,3 +63,9 @@ K-Nearest Neighbors (KNN)
          
 ### About
 This project is part of my data science portfolio, aimed at freelance missions and corporate positions. I can adapt this kind of analysis to the specific needs of a brand or client, particularly in the health, e-commerce or fashion sectors.
+
+### Author
+
+Feel free to explore, give feedback, or fork the project.
+
+Karidjatou Diaby – Data Analyst
