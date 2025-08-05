@@ -52,9 +52,10 @@ K-Nearest Neighbors (KNN)
 
 ### Visualisations:
 * [Matrices de confusion]('images/Boxplots.png')
-* [Courbes ROC]('images/Courbe ROC- KNN k=8.png')
-* [AUC (aire sous la courbe)](images)
-* [Boxplots](images)
+* [Courbes ROC]('images/Courbe_ROC.png')
+* [AUC (aire sous la courbe)](images/Courbe_ROC.png)
+* [Boxplots](images/Boxplots.png)
+* [Histogrammes](images/Histogrammes.png)
 
 ### Résultats:
 * Le modèle KNN (k=8) a donné les meilleurs résultats globaux avec un bon équilibre entre précision et rappel.
