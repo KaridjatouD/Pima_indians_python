@@ -51,9 +51,10 @@ K-Nearest Neighbors (KNN)
 * Courbe ROC : AUC = 0.79
 
 ### Visualisations:
-* Matrices de confusion
-* Courbes ROC
-* AUC (aire sous la courbe)
+* [Matrices de confusion](images)
+* [Courbes ROC](images)
+* [AUC (aire sous la courbe)](images)
+* [Boxplots](images)
 
 ### Résultats:
 * Le modèle KNN (k=8) a donné les meilleurs résultats globaux avec un bon équilibre entre précision et rappel.
